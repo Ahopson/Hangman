@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Ch_4HW
+{
+   public static void main(String args[])
+   {
+ final int retail = 99;
+   System.out.println("Enter the quantity of packages");
+   int quantity = keyboard.nextInt();    
+   double price = quantity*retail;
+   double discount;
+   
+   if (quantity >= 10 && quantity<=19)
+      {
+      discount = 0.8;
+      System.out.println("Quantity is " + quantity + "\nDiscount is 20% off" +"\nYour total is "+ (price*discount));
+ }
+  else if (quantity >= 20 && quantity<=49){
+      discount = 0.7;
+      System.out.println("Quantity is " + quantity + "\nDiscount is 30% off" +"\nYour total is "+ (price*discount));
+   }
+   else if (quantity >= 50 && quantity<=99){
+      discount = 0.6;
+      System.out.println("Quantity is " + quantity + "\nDiscount is 40% off" +"\nYour total is "+ (price*discount));
+  }
+  else if (quantity >= 100){
+      discount = 0.5;
+      System.out.println("Quantity is " + quantity + "\nDiscount is 50% off" +"\nYour total is "+ (price*discount));
+      }
+}
+}
