@@ -10,7 +10,7 @@ Just me posting Code I've done over the years
 
     Experimenting with Java variables and printing.
     
-  * Project 2: [Number Guessing Game](https://github.com/Ahopson/School-projects/blob/main/Numbers game)
+  * Project 2: [Number Guessing Game](https://github.com/Ahopson/School-projects/blob/main/Numbers_game)
 
     Playing around with conditionals.
     
