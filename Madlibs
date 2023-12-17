@@ -1,0 +1,86 @@
+//Aniya Hopson
+//CSC-151 Program assignment 1
+
+import java.util.Scanner;
+
+public class HopsonA_P1
+{
+
+//Aniya Hopson
+// Completed in Kelsey Hall
+
+   //Gathering information for the story
+  public static void main (String[] args)
+  {
+   Scanner keyboard = new Scanner(System.in);
+   System.out.print("Enter the name of your school:");
+   String school =keyboard.nextLine();
+   
+   System.out.print("Enter the name of a person:");
+   String person1 = keyboard.nextLine(); 
+   
+   System.out.print("Enter the name of a second person:");
+   String person2 = keyboard.nextLine(); 
+   
+   System.out.print("Enter a color:");
+   String color1 = keyboard.nextLine();
+   
+   System.out.print("Enter a second color:");
+   String color2 = keyboard.nextLine();
+ 
+   System.out.print("Enter a postive number:");
+   int years =keyboard.nextInt();
+   int halfYears = years/2;
+   
+   //clear buffer
+   keyboard.nextLine();
+  
+  //Asking user for food options, pronouns, adjectives, and adverbs
+   System.out.print("Name a food:");
+   String food1=keyboard.nextLine();
+   String food1AllCaps= food1.toUpperCase();
+   
+   System.out.print("Name another food:");
+   String food2=keyboard.nextLine();
+   
+   System.out.print("Enter your pronouns she/he/they:");
+   String pronoun =keyboard.nextLine();
+   
+   System.out.print("Enter an adjective:");
+   String adjective1=keyboard.nextLine();
+   
+   System.out.print("Enter a second adjective:");
+   String adjective2=keyboard.nextLine();
+   
+   System.out.print("Enter an adverb:");
+   String adverb=keyboard.nextLine();
+   
+   //Right here I am using math to obtain the searchArea
+   System.out.print("Enter a number with a decimal point:");
+   double radius = keyboard.nextDouble();
+   double searchArea= Math.PI * (Math.pow(radius,2));
+   int eachSearchArea= ((int)searchArea)/2;
+   
+   //clear buffer
+   keyboard.nextLine();
+   
+   System.out.print("Enter a unit of distance measurement in plural form:");
+   String distanceUnits = keyboard.nextLine();
+   System.out.print("Enter a unit of time measurement in plural form:");
+   String timeUnits = keyboard.nextLine();
+  
+   // Outputting all the information into the story and putting it together
+   System.out.printf("%d years ago at %s the esteemed %s desperately needed to find a %s %s.",years,school,person1,color1,food1);
+   System.out.printf("\n%s searched and searched for the evasive %s %s, but alas, the %s was never found.", pronoun,color1,food1,food1);
+   System.out.printf("\n%d years after the search began %s enlisted the help of %s the %s.",halfYears,person1,person2,adjective1);
+   System.out.println("\nIt turns out that this might have been" + " "+ person1+"'s fatal mistake.");
+   System.out.printf("You see, %s suggested that they focus their search only on %s.",person2,school);
+   System.out.printf("\nThey would create a circle to search around the school and run around shouting \"%s!! %s!!\".",food1AllCaps,food1AllCaps); 
+   System.out.printf("\nThe search parameter was going to be %.2f square %s",searchArea,distanceUnits);
+   System.out.printf("\nThat roughly %d square %s each", eachSearchArea,distanceUnits);
+   System.out.println("\nThe search could take" + " "+ timeUnits + " "+ "to complete.");
+   System.out.printf("In the end %s %s settled for some %s %s and told %s to bug off!", person1,adverb,adjective2,food2,person2); 
+  
+  
+   }
+}
