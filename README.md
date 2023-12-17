@@ -6,7 +6,7 @@ Just me posting Code I've done over the years
 
 ### CS151
 
-  * Project 1: Madlibs
+  * Project 1: [Madlibs](https://github.com/Ahopson/School-projects/blob/834e3adf42b3f6da5013f344f4fb3bfe292a08b8/Madlibs)
 
     Experimenting with Java variables and printing.
     
