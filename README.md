@@ -15,8 +15,13 @@ Just me posting Code I've done over the years
     Playing around with conditionals.
     
   * Project 3: [Wordle](https://github.com/Ahopson/School-projects/blob/main/HopsonAniya_P3.java)
-
     Learning loops.
+    
+  * Project 4: [TicTacToe](https://github.com/Ahopson/School-projects/blob/main/HopsonAniya_P3.java)
+    Working with Arrays
+
+    
+
 
 ## Longview High
 
