@@ -21,10 +21,3 @@ Just me posting Code I've done over the years
   * Project 4: [TicTacToe](https://github.com/Ahopson/School-projects/blob/main/TicTacToe)
 
     Working with Arrays
-
-    
-
-
-## Longview High
-
-  * [Hangman](https://github.com/Ahopson/School-projects/blob/main/hangman.py)
